@@ -1,6 +1,8 @@
+#William K. Bukowski - Original Content-  Enjoy!
+
 Beginner Git Commands: 
 	
-	Covers --->     1. Clone down an empty Github Repo from Github.com, and start using it from your local terminal.
+	Contents --->     1. Clone down an empty Github Repo from Github.com, and start using it from your local terminal.
 			2.Update existing repo with new files
 
 
