@@ -1,0 +1,28 @@
+Beginner Git Commands: 
+	
+	Covers --->     1. Clone down an empty Github Repo from Github.com, and start using it from your local terminal.
+			2.Update existing repo with new files
+
+
+
+========================================================================================================================================================================================================
+
+
+
+
+1. Clone and start using git repo from local terminal:
+
+ 	git clone https://github.com/myRepo.git			| clones down from github the repository to local machine
+	-> cd into the the repo, locally 			| this will allow you to work within the repo from your terminal
+	git remote add origin https://github.com/myRepo.git	| connect the local instance to the github.com instance of your repo
+	git add .						| adds all files in the dir you are in
+	git status						| check status of queue
+	git push --set-upstream origin main 			| this pushes changes up. if main, then use main as shown. master also is occasionally used
+
+
+
+2. Update Github repo with changes made to files locally:
+
+	-> navigate to the branch with switch <branchname>	| sets branch as dir	
+	git push --set--upstream origin <branchname> 		| pushes and new changes to the github repo online
+	-> in a brwoser, on github, accept the changes		| unless automatic changes are set up through Github, you will have to manually approve the changes to the code from the browser
